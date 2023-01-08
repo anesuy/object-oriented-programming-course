@@ -30,6 +30,13 @@ namespace OOP_Inheritance
             Console.WriteLine(retailSalesman.FullName);
             retailSalesman.Sell();
 
+            //Interfaces
+            retailSalesman.Develop();
+
+            WebDeveloper mikeDeveloper = new WebDeveloper("Python");
+            mikeDeveloper.Code();
+            mikeDeveloper.Develop();
+
         }
     }
 }

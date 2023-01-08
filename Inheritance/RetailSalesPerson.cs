@@ -29,7 +29,8 @@ namespace OOP_beginner_course.without_abstract_class
             _lastName = lastName;
         }
 
-        public void Sell()
+        //virtual allows a subclass, created up from this one, to be override, when in the childclass you call the name method/propriety but with the "override" keyword instead of "virtual"
+        public virtual void Sell()
         {
             Console.WriteLine(string.Format("{0}, RetailsSalesman", FullName));
         }
