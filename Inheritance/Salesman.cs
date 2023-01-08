@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_beginner_course
 {
-    public class CarSalesman
+    public abstract class Salesman
     {
         private string _firstName;
         private string _lastName;
@@ -19,15 +19,14 @@ namespace OOP_beginner_course
         }
 
         //this is the constructor. it has the same name as the class
-        public CarSalesman (string firstName, string lastName) 
+        public Salesman(string firstName, string lastName)
         {
             this._firstName = firstName;
             this._lastName = lastName;
         }
 
-        public void Sell()
-        {
-            Console.WriteLine(String.Format("{0}, CarSalesman", this.FullName));
-        }
+        //declaring abstract here because it's the method that differs alone from the two concrete classes case
+        public abstract void Sell();
+       
     }
 }
