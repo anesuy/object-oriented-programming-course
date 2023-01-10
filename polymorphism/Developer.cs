@@ -45,6 +45,9 @@ namespace OOP_beginner_course
         //this way, we`re basically determining it`s different behaviour as we`re writing our code, bot while the code is running.
         //it's much cleaner and more readable;
 
+        //same form but different behaviour
+        //less room for errors
+
         public virtual void Code()
         {
             Console.WriteLine(string.Format("I'm coding in my favorite programming language {0}", this._mainDevLanguage));
