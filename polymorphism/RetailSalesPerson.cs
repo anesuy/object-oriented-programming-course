@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_beginner_course.without_abstract_class
+namespace OOP_beginner_course_Polymorphism.without_abstract_class
 {
     //1 - an abstract class cannot be instantiated
     //2 - designed to the inherited by another abstrack class or concrete class that either inherit or overwhite its members

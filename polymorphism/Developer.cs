@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_beginner_course
+namespace OOP_beginner_course_Polymorphism
 {
     public abstract class Developer
     {
@@ -62,5 +62,12 @@ namespace OOP_beginner_course
         {
             Console.WriteLine(string.Format("I'm coding in my favorite programming language {0}, and {1} and {2}", this._mainDevLanguage, firstExtraDevLanguage, secondExtraDevLanguage));
         }
+
+        //same methods but different parameters -> method overloading
+
+         
+
+        //dynamic polymorphism
+        //we achive dynmic polymorphism through method overwriting so method overwriting as we already saw. 
     }
 }
