@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CODING\\OOP beginner\\OOP beginner course\\polymorphism - Copia\\Encapsulation.csproj",
+      "projectUniqueName": "D:\\CODING\\OOP beginner\\OOP beginner course\\encapsulation\\Encapsulation.csproj",
       "projectName": "Encapsulation",
-      "projectPath": "D:\\CODING\\OOP beginner\\OOP beginner course\\polymorphism - Copia\\Encapsulation.csproj",
+      "projectPath": "D:\\CODING\\OOP beginner\\OOP beginner course\\encapsulation\\Encapsulation.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\CODING\\OOP beginner\\OOP beginner course\\polymorphism - Copia\\obj\\",
+      "outputPath": "D:\\CODING\\OOP beginner\\OOP beginner course\\encapsulation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
