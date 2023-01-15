@@ -15,13 +15,40 @@ namespace OOP_beginner_course_Encapsulation
         {
         }
 
-        public override void Sell()
-        {
-            Console.WriteLine(string.Format("{0}, RetailSalesPerson2", this.FullName));
-        }
+        //what if at some point, a different and incorrect order is implemented?
+        //then, we should lock this method fot it not to be overwriten: making it CONCRETE
+        //we'll put it in the interface class and same some coding lines
+
+        //public override void Sell()
+        //{
+        //    this.Engage();
+        //    this.AddressConcerns();
+        //    this.DemoValue();
+        //    this.Close();
+        //}
         public void Develop()
         {
             Console.WriteLine(string.Format("{0}, RetailsSalesman - I develop myself by watching retail sales training videos.", FullName));
+        }
+
+        protected override void Engage()
+        {
+            Console.WriteLine("Hello!");
+        }
+
+        protected override void AddressConcerns()
+        {
+            Console.WriteLine("Help is on the way!");
+        }
+
+        protected override void DemoValue()
+        {
+            Console.WriteLine("Discount on the house!");
+        }
+
+        protected override void Close()
+        {
+            Console.WriteLine("Good shopping!!");
         }
     }
 }

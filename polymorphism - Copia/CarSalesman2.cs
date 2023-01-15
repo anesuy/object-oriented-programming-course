@@ -14,9 +14,36 @@ namespace OOP_beginner_course_Encapsulation
             this._age = age;
         }
 
-        public override void Sell()
+        //what if at some point, a different and incorrect order is implemented?
+        //then, we should lock this method fot it not to be overwriten: making it CONCRETE
+        //we'll put it in the interface class and same some coding lines
+
+        //public override void Sell()
+        //{
+        //    this.Engage();
+        //    this.AddressConcerns();
+        //    this.DemoValue();
+        //    this.Close();
+        //}
+
+        protected override void Engage()
         {
-            Console.WriteLine(string.Format("{0}, CarSalesman2", this.FullName));
+            Console.WriteLine("Hello!");
+        }
+
+        protected override void AddressConcerns()
+        {
+            Console.WriteLine("Help is on the way!");
+        }
+
+        protected override void DemoValue()
+        {
+            Console.WriteLine("Discount on the house - car!");
+        }
+
+        protected override void Close()
+        {
+            Console.WriteLine("Good luck shopping cars!!");
         }
     }
 }

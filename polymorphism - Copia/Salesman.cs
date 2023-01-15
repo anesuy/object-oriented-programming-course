@@ -26,7 +26,22 @@ namespace OOP_beginner_course_Encapsulation
         }
 
         //declaring abstract here because it's the method that differs alone from the two concrete classes case
-        public abstract void Sell();
+
+        public void Sell()
+        {
+            this.Engage();
+            this.AddressConcerns();
+            this.DemoValue();
+            this.Close();
+        }
+
+        protected abstract void Engage();
+
+        protected abstract void AddressConcerns();
+
+        protected abstract void DemoValue();
+
+        protected abstract void Close();
 
     }
 }

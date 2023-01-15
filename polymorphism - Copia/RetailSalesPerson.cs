@@ -34,5 +34,24 @@ namespace OOP_beginner_course_Encapsulation.without_abstract_class
         {
             Console.WriteLine(string.Format("{0}, RetailsSalesman", FullName));
         }
+
+        {
+            Console.WriteLine("Hello!");
+        }
+
+    protected override void AddressConcerns()
+    {
+        Console.WriteLine("Help is on the way!");
     }
+
+    protected override void DemoValue()
+    {
+        Console.WriteLine("Discount on the house!");
+    }
+
+    protected override void Close()
+    {
+        Console.WriteLine("Good shopping!!");
+    }
+}
 }
