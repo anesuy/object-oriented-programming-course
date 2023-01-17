@@ -1,8 +1,8 @@
 ﻿
 
-using OOP_beginner_course_Encapsulation;
+using OOP_beginner_course_Encapsulation_Abstraction;
 
-namespace OOP_beginner_course_Encapsulation
+namespace OOP_beginner_course_Encapsulation_Abstraction
 {
     class Program
     {

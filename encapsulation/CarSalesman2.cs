@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_beginner_course_Encapsulation
+namespace OOP_beginner_course_Encapsulation_Abstraction
 {
     public class CarSalesman2 : Salesman
     {
